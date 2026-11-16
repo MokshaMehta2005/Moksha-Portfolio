@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Github, Linkedin, ArrowDown, Download } from "lucide-react";
+import { Github, Linkedin, Mail, ArrowDown, Download } from "lucide-react";
 import { motion, useReducedMotion } from "framer-motion";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -209,6 +209,13 @@ export default function Hero({ isReady = true }) {
               className="text-[#ababab] hover:text-pink hover:-translate-y-1 transition-all text-xl"
             >
               <Linkedin size={22} />
+            </a>
+            <a
+              href="mailto:mokshamehta71076@gmail.com"
+              aria-label="Email Moksha Mehta"
+              className="text-[#ababab] hover:text-pink hover:-translate-y-1 transition-all text-xl"
+            >
+              <Mail size={22} />
             </a>
           </div>
         </div>

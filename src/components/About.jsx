@@ -206,6 +206,15 @@ export default function About() {
                       Built innovative solutions under competitive hackathon timelines, focusing on full-stack web applications and AI APIs.
                     </p>
                   </li>
+                  <li>
+                    <span className="text-[#ff004f] font-semibold block text-sm uppercase tracking-wide">
+                      2023 – Present
+                    </span>
+                    <strong className="text-white text-base block font-medium">Full Stack &amp; AI Engineering Journey</strong>
+                    <p className="text-sm text-[#ababab]">
+                      Engineered scalable MERN applications, transactional database schemas, and robust API architectures.
+                    </p>
+                  </li>
                 </ul>
               </div>
             )}

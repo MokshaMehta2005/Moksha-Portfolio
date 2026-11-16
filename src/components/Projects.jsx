@@ -99,9 +99,9 @@ export default function Projects() {
               Selected projects
             </p>
             <h2 className="text-4xl sm:text-5xl font-extrabold text-white">
-              Things I’ve <span className="text-[#ff668c]">built</span>
+              Things I’ve <span className="text-[#ff004f] glow-pink">built</span>
             </h2>
-            <div className="w-16 h-1 bg-[#ff668c] mt-4 rounded-full" />
+            <div className="w-16 h-1 bg-[#ff004f] mt-4 rounded-full" />
             <p className="text-[#ababab] text-base mt-4 max-w-xl font-light">
               A selection of full-stack and AI projects, with a closer look at the problem and how each one works.
             </p>
